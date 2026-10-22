@@ -218,3 +218,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# DevSecOps project security
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Local virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Local security scan reports
+gitleaks-report.json
